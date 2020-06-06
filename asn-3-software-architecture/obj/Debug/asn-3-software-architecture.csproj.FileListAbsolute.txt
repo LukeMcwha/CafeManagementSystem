@@ -1,0 +1,6 @@
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\bin\Debug\asn-3-software-architecture.exe.config
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\bin\Debug\asn-3-software-architecture.exe
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\bin\Debug\asn-3-software-architecture.pdb
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\obj\Debug\asn-3-software-architecture.csproj.CoreCompileInputs.cache
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\obj\Debug\asn-3-software-architecture.exe
+C:\Users\mirage-dev\Documents\code\uni\asn-3-software-architecture\asn-3-software-architecture\obj\Debug\asn-3-software-architecture.pdb
