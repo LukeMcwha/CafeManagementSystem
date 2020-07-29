@@ -1,4 +1,6 @@
 # Cafe Management System
+> Designed by:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Luke Mcwha and Cory Mifsud<br/>Implemented by:&nbsp;&nbsp;&nbsp;Luke Mcwha
+
 
 ## Introduction
 
@@ -10,10 +12,41 @@ This project has accompanying documentation that describes the structure of the 
 
 ## Documentation
 
-This project is designed using the Model View ViewModel (MVVM). Therefore much of the documentation is split into its separate components; View, Model, ViewModel.
+This project is designed using the Model View ViewModel (MVVM). Therefore much of the documentation is split into its separate components; View, Model and ViewModel. To simplify the project, we assume that the Database model will mimic the service layer data. No model was made for this project.
 
 ### View
 
+#### Command Processor
+This project uses a commandline interface to interact with the user. This command processor singleton object let's that will search a dictionary for a command object to process the task. The first word an input command is the identifier for the command.
 
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandProcessorUml.png?raw=true" width="500" />
+</p>
+> Programs Commandline Processor structure
 
-![alt text](https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandProcessorUml.png?raw=true "Logo Title Text 1")
+#### Command Objects
+The below commands represent the different instances that exist within a command processor. These commands can be added and removed from the command processor dynamically. This occurs when changing states. eg from Kitchen to Customer state.
+
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandChildren1.png?raw=true" width="700" />
+</p>
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandChildren2.png?raw=true" width="700" />
+</p>
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandChildren3.png?raw=true" width="700" />
+</p>
+> Command Processor Command objects.
+
+#### Entity State Management
+There are three entities that can act upon this system: Customer, Kitchen and Front of House. These entities are able to access different commands based on their role and therefore can make different interactions with the system.
+
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/statePattern.png?raw=true" width="700" />
+</p>
+> Entity State Management.
+
+### View Model
+<p align="center">
+  <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/viewModelDesign.png?raw=true" width="700">
+</p>
