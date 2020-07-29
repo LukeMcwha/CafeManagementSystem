@@ -10,3 +10,10 @@ This project has accompanying documentation that describes the structure of the 
 
 ## Documentation
 
+This project is designed using the Model View ViewModel (MVVM). Therefore much of the documentation is split into its separate components; View, Model, ViewModel.
+
+### View
+
+
+
+![alt text](https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/commandProcessorUml.png?raw=true "Logo Title Text 1")
