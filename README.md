@@ -47,6 +47,8 @@ There are three entities that can act upon this system: Customer, Kitchen and Fr
 > Entity State Management.
 
 ### View Model
+There are 3 main patterns used to develop the ViewModel: Singleton, Composition, Event Dispatch patterns. Each of these patterns play a different part completing all functions required. The Singleton patterns hold the state and data. This is important when keeping the consistant data across many States. Composition pattern is utilised to allow for polymophic code structures when objects contain objects of the same type. The event dispatcher is the way information is passed from object to object when an event occurs. The main event in this project is a timed event. This notifies all subscribed objects of the event occuring. 
+
 <p align="center">
   <img src="https://github.com/LukeMcwha/CafeManagementSystem/blob/master/readme-images/viewModelDesign.png?raw=true" width="700">
 </p>
